@@ -22,7 +22,7 @@
         },
         {
             "text": "Сколько тебе лет?",
-            "type_answer": "int",
+            "type_answer": "str",
             "var": "Возраст"
         
         },
