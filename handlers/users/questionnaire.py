@@ -11,7 +11,7 @@ from utils.saver import Saver
 from keyboards.default.make_keyboard import make_keyboard
 
 
-@dp.message_handler(Text('Заполнить анкету!'))
+@dp.message_handler(Text('✅Заполнить анкету✅'))
 async def set_questionnaire_state(message: types.Message, state: FSMContext):
     markup = make_keyboard(messages['questions'][0])
     text = messages['questions'][0]['text']
